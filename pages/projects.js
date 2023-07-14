@@ -8,14 +8,10 @@ export default function Home() {
     return (
       <Layout>
       <div className="flex flex-col min-h-screen">
-        <main className="flex-grow">
-          {/* Toolbar */}
-          
-  
-          {/* Page Content */}
-          {/* Add your content here */}
-        </main>
-  
+       <main className="flex-grow">
+        Main content here.
+
+       </main>
         {/* Footer */}
         <footer className="bg-gray-800 text-white p-4">
           <div className="flex justify-center">

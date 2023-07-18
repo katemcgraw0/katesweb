@@ -12,7 +12,7 @@ export default function Projects() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col-reverse lg:flex-row">
               {/* Text Box */}
-              <div className="flex items-start justify-center mt-[-500px] max-w-2xl">
+              <div className="flex items-start justify-center max-w-2xl">
                 <div className="bg-green3 rounded-lg p-8">
                   <div className="flex flex-col items-center">
                     <img

@@ -15,7 +15,7 @@ export default function Projects () {
             </div>
             <div className='flex flex-col gap-8 mt-5 mb-5'>
               {/* Text Box */}
-              <div className='flex md:flex-row flex-col md:gap-8'>
+              <div className='flex md:flex-row flex-col gap-8'>
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center flex-grow'>

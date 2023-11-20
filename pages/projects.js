@@ -142,14 +142,14 @@ export default function Projects () {
                         A social media application that I am currently building for people to share what they have been cooking lately. With the rise of cooking instagrams, I am building this website to keep the cooking accounts off of instagram. Users will be able to create an account, login, add friends, and post meals they are cooking. In each post will be a picture (or pictures) of the meal as well as a section for the recipe and a section for an optional caption. There will be a feed of others' recent meals and opportunities to interact with these posts, as well as save these recipes to your upcoming meals. Stay tuned as I develop this concept!
                       </p>
                       <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust '>
-                        Technologies Used: TBD
+                        Technologies Used: Next.js, Typescript, Supabase
                       </p>
                     </div>
                     <div className='flex justify-center mt-auto '>
                       
                       <Link
                         legacyBehavior
-                        href='https://github.com/katemcgraw0/Zodiacify'
+                        href='https://github.com/katemcgraw0/yes-chef'
                         target='_blank'
                         passHref
                       >

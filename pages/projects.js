@@ -32,8 +32,7 @@ export default function Projects () {
                       zodiac sign based on this data. I also implemented
                       features to display users' favorite artists and to give
                       them song and artist recommendations. This was my first
-                      personal project, and I learned a lot about different
-                      technologies. This project was really fun for me because
+                      personal project, and I learned a lot about web dev and options for choosing my tech stack. This project was really fun for me because
                       it engaged a lot of my friends in what I was working on
                       and I got a lot of positive feedback:)
                     </p>

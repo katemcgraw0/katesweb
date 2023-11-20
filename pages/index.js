@@ -26,7 +26,7 @@ export default function Home() {
                 Hi! My name's Kate McGraw.
               </h2>
               <p className="text-2xl mb-4 bg-green3 mt-0 p-4 text-white rounded-b-xl font-bodyCust">
-                I am a junior studying Computer Science at UMich! I am currently assisting the Detection for Nuclear Nonproliferation, a research group in the Nuclear Engineering department at Michigan, to develop a python suite for processing and analyzing radiation data recorded from fission reactions. When I am not coding, I like to spend my time outdoors, watching Michigan football (Go Blue!), listening to music, or hanging out with friends. I am excited to be beginning my career as a software engineer and am looking forward to learning more about the tech industry and becoming a better software engineer!
+                I am a junior studying Computer Science at UMich! I am currently an Instruction Aide for the class EECS 376: Foundations of Computer Science, where I teach students about different techniques for analyzing and writing algorithms, computability, complexity, and cryptography basics. I am an up and coming software engineer with a diverse set of passions. When I am not coding, I like to spend my time outdoors, watching Michigan football (Go Blue!), listening to music, or hanging out with friends. I am excited to be beginning my career as a software engineer and am looking forward to learning more about the tech industry and becoming a better software engineer!
               </p>
               {/* Add additional text content or any other elements you want */}
             </div>

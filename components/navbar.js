@@ -8,12 +8,12 @@ const Navbar = () => {
   const isHomePage = router.pathname === '/';
   const isProjectsPage = router.pathname == '/projects';
   return (
-    <nav className="bg-toolBar pt-5 pb-20">
+    <nav className="bg-toolBar pt-5 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex items-center space-x-4">
-              <a className=" text-5xl font-custom font-bold text-green5 ">Katherine (Kate) McGraw</a>
+              <a className="md:text-5xl font-custom font-bold text-green5 text-3xl">Katherine (Kate) McGraw</a>
             </div>
           </div>
           <div className="flex px-4">

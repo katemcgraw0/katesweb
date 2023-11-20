@@ -136,7 +136,7 @@ export default function Projects () {
                         className='w-auto h-72 rounded-md'
                       />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
-                        YOULearnToCook
+                        Yes Chef
                       </h2>
                       <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
                         A social media application that I am currently building for people to share what they have been cooking lately. With the rise of cooking instagrams, I am building this website to keep the cooking accounts off of instagram. Users will be able to create an account, login, add friends, and post meals they are cooking. In each post will be a picture (or pictures) of the meal as well as a section for the recipe and a section for an optional caption. There will be a feed of others' recent meals and opportunities to interact with these posts, as well as save these recipes to your upcoming meals. Stay tuned as I develop this concept!

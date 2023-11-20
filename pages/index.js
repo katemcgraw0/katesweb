@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex flex-col min-h-full">
     <main className="">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col-reverse lg:flex-row">
+        <div className="flex flex-col lg:flex-row">
           {/* Picture */}
           <div className="lg:w-1/2 flex items-center w-full">
             <img

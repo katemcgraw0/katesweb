@@ -23,10 +23,10 @@ export default function Projects () {
                       alt='Your Image'
                       className='w-auto h-72 rounded-md'
                     />
-                    <h2 className='font-custom text-4xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
+                    <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                       Zodiacify
                     </h2>
-                    <p className='text-2xl mt-4 text-white font-bodyCust'>
+                    <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
                       A website I built that uses the Spotify API to access
                       users' data and uses the OpenAI API to predict their
                       zodiac sign based on this data. I also implemented
@@ -37,7 +37,7 @@ export default function Projects () {
                       it engaged a lot of my friends in what I was working on
                       and I got a lot of positive feedback:)
                     </p>
-                    <p className='text-2xl mt-4 text-white font-bodyCust '>
+                    <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust '>
                       Technologies Used: React, Next.js, NextAuth.js,
                       TailwindCSS, OpenAI API, Spotify API, Vercel
                     </p>
@@ -49,7 +49,7 @@ export default function Projects () {
                       target='_blank'
                       passHref
                     >
-                      <a className='bg-green5 hover:bg-green4 text-2xl text-white font-bold font-custom py-2 px-4 rounded mr-2'>
+                      <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded mr-2 text-center'>
                         Click here to See!
                       </a>
                     </Link>
@@ -59,7 +59,7 @@ export default function Projects () {
                       target='_blank'
                       passHref
                     >
-                      <a className='bg-green5 hover:bg-green4 text-2xl text-white font-bold font-custom py-2 px-4 rounded'>
+                      <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded text-center'>
                         Github Repo
                       </a>
                     </Link>
@@ -74,10 +74,10 @@ export default function Projects () {
                       alt='Your Image'
                       className='w-auto h-72 rounded-md'
                     />
-                    <h2 className='font-custom text-4xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
+                    <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                       Theta Tau Website
                     </h2>
-                    <p className='text-2xl mt-4 text-white font-bodyCust'>
+                    <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
                       A website I helped build to showcase my professional
                       engineering fraternity. It serves to inform prospective
                       members of our fraternity's values and purpose. Members
@@ -92,7 +92,7 @@ export default function Projects () {
                       internal functionality, which has made a huge difference
                       in the administration of our fraternity.
                     </p>
-                    <p className='text-2xl mt-4 text-white font-bodyCust mb-2'>
+                    <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust mb-2'>
                       Technologies Used: Typescript, React, Next.js,
                       TailwindCSS, Netlify, Supabase
                     </p>
@@ -104,7 +104,7 @@ export default function Projects () {
                           target='_blank'
                           passHref
                         >
-                          <a className='bg-green5 hover:bg-green4 text-2xl text-white font-bold font-custom py-2 px-4 rounded mr-2 s'>
+                          <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded mr-2 s text-center'>
                             Click here to See!
                           </a>
                         </Link>
@@ -114,7 +114,7 @@ export default function Projects () {
                           target='_blank'
                           passHref
                         >
-                          <a className='bg-green5 hover:bg-green4 text-2xl text-white font-bold font-custom py-2 px-4 rounded'>
+                          <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded text-center'>
                             Github Repo
                           </a>
                         </Link>

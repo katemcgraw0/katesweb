@@ -12,7 +12,7 @@ const footer = () => {
                     <img src="/github.png" alt="Image 1" className="w-16 h-auto cursor-pointer" />
                 </a>
                 <a href="https://www.linkedin.com/in/katherine-mcgraw/" target = "_blank" className="flex items-center space-x-2">
-                    <img src="/linkedIn.png" alt="Image 2" className="w-16 h-auto ml-5 cursor-pointer " />
+                    <img src="/linkedIn2.png" alt="Image 2" className="w-16 h-auto ml-5 cursor-pointer " />
                 </a>
                 </div>
             </div>

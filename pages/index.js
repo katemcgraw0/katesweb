@@ -14,7 +14,7 @@ export default function Home() {
           {/* Picture */}
           <div className="lg:w-1/2 flex items-center w-full lg:mb-0 mb-4">
             <img
-              src="/me.jpeg"  // Replace with the path to your image
+              src="/me.jpeg"  
               alt="Your Image"
               className="max-w-full rounded-3xl items-center mx-auto"
             />
@@ -26,14 +26,14 @@ export default function Home() {
                 Hi! My name's Kate McGraw.
               </h2>
               <p className="sm:text-2xl text-lg mb-4 bg-green3 mt-0 p-4 text-white rounded-b-xl font-bodyCust">
-                I am a junior from San Diego, CA studying Computer Science at UMich! I am currently an Instruction Aide for the class EECS 376: Foundations of Computer Science, where I teach students about different techniques for analyzing and writing algorithms, computability, complexity, and cryptography basics. I am an up and coming software engineer with a diverse set of passions. When I am not coding, I like to spend my time outdoors, watching Michigan football (Go Blue!), listening to music, or hanging out at the beach with friends. I am excited to be beginning my career as a software engineer and am looking forward to learning more about the tech industry and becoming a better software engineer!
+                I am a junior from San Diego, CA studying Computer Science at UMich! I am currently an Instruction Aide for the class EECS 376: Foundations of Computer Science, where I teach students about different techniques for analyzing and writing algorithms, computability, complexity, and cryptography basics. I am an up and coming software engineer with a diverse set of passions. When I am not coding, I like to spend my time outdoors, watching Michigan football (Go Blue!), listening to music, or hanging out at the beach with friends. I am excited to be beginning my career and am looking forward to learning more about the tech industry and becoming a better software engineer!
               </p>
-              {/* Add additional text content or any other elements you want */}
+             
             </div>
           </div>
         </div>
       </div>
-      {/* Add your additional page content here */}
+    
     </main>
 
       {/* Footer */}

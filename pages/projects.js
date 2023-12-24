@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../components/layout'
+import RotatingImages from '../components/rotatingImages'
 
 export default function Projects () {
   return (
@@ -14,7 +15,7 @@ export default function Projects () {
               <h1>Some things I've Built!</h1>
             </div>
             <div className='flex flex-col gap-8 mt-5 mb-5'>
-              {/* Text Box */}
+            
               <div className='flex md:flex-row flex-col gap-8'>
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
@@ -71,11 +72,7 @@ export default function Projects () {
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center'>
-                      <img
-                        src='/ThetaTauWeb.png'
-                        alt='Your Image'
-                        className='w-auto h-72 rounded-md'
-                      />
+                    <RotatingImages />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                         Theta Tau Website
                       </h2>
@@ -165,7 +162,7 @@ export default function Projects () {
             </div>
           </div>
         </main>
-        {/* Project section */}
+     
       </div>
     </Layout>
   )

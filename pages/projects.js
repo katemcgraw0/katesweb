@@ -23,7 +23,7 @@ export default function Projects () {
                       <img
                         src='/Zodiacify.png'
                         alt='Your Image'
-                        className='w-auto h-72 rounded-md'
+                        className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
                       />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                         Zodiacify
@@ -130,7 +130,7 @@ export default function Projects () {
                       <img
                         src='/coming-soon.jpg'
                         alt='Your Image'
-                        className='w-auto h-72 rounded-md'
+                        className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
                       />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                         Yes Chef

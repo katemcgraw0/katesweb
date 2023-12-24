@@ -28,7 +28,7 @@ const RotatingImages = () => {
       <img
         src={images[currentImage]}
         alt={`Image ${currentImage + 1}`}
-        className="w-auto h-72 rounded-md" 
+        className="lg:w-auto lg:h-72 md:h-52 md:w-auto rounded-md" 
       />
 
       <div className="absolute bottom-4 left-0 right-0 flex justify-center">

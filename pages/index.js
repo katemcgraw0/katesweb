@@ -16,7 +16,7 @@ export default function Home() {
             <img
               src="/me.jpeg"  
               alt="Your Image"
-              className="max-w-full rounded-3xl items-center mx-auto"
+              className="max-w-full rounded-3xl items-center mx-auto   "
             />
           </div>
           {/* Text Box */}

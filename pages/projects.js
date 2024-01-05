@@ -15,7 +15,6 @@ export default function Projects () {
               <h1>Some things I've Built!</h1>
             </div>
             <div className='flex flex-col gap-8 mt-5 mb-5'>
-            
               <div className='flex md:flex-row flex-col gap-8'>
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
@@ -72,7 +71,7 @@ export default function Projects () {
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center'>
-                    <RotatingImages />
+                      <RotatingImages />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                         Theta Tau Website
                       </h2>
@@ -81,15 +80,17 @@ export default function Projects () {
                         engineering fraternity. It serves to inform prospective
                         members of our fraternity's values and purpose. Members
                         can sign in using Google OAuth to access additional
-                        features, such as viewing internal events, pledging
-                        progress, and accessing resources. This was an extremely
-                        rewarding project as it was a simple way to give back to
-                        my fraternity. Prior to the currently website, the
-                        fraternity's website had many issues including
-                        incompatibility with different screen sizes, outdated
-                        information, and poor UI/UX design. It also had no
-                        internal functionality, which has made a huge difference
-                        in the administration of our fraternity.
+                        features such as viewing internal events, pledging
+                        progress, and accessing resources. There is also a
+                        feature to see what other brothers are taking the same
+                        classes as you. This was an extremely rewarding project
+                        as it was a simple way to give back to my fraternity.
+                        Prior to the current website, the fraternity's website
+                        had many issues including incompatibility with different
+                        screen sizes, outdated information, and poor UI/UX
+                        design. It also had no internal functionality, which has
+                        made a huge difference in the administration of our
+                        fraternity.
                       </p>
                       <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust mb-2'>
                         Technologies Used: Typescript, React, Next.js,
@@ -136,14 +137,24 @@ export default function Projects () {
                         Yes Chef
                       </h2>
                       <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
-                        A social media application that I am currently building for people to share what they have been cooking lately. With the rise of cooking instagrams, I am building this website to keep the cooking accounts off of instagram. Users will be able to create an account, login, add friends, and post meals they are cooking. In each post will be a picture (or pictures) of the meal as well as a section for the recipe and a section for an optional caption. There will be a feed of others' recent meals and opportunities to interact with these posts, as well as save these recipes to your upcoming meals. Stay tuned as I develop this concept!
+                        A social media application that I am currently building
+                        for people to share what they have been cooking lately.
+                        With the rise of cooking instagrams, I am building this
+                        website to keep the cooking accounts off of instagram.
+                        Users will be able to create an account, login, add
+                        friends, and post meals they are cooking. In each post
+                        will be a picture (or pictures) of the meal as well as a
+                        section for the recipe and a section for an optional
+                        caption. There will be a feed of others' recent meals
+                        and opportunities to interact with these posts, as well
+                        as save these recipes to your upcoming meals. Stay tuned
+                        as I develop this concept!
                       </p>
                       <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust '>
                         Technologies Used: Next.js, Typescript, Supabase
                       </p>
                     </div>
                     <div className='flex justify-center mt-auto '>
-                      
                       <Link
                         legacyBehavior
                         href='https://github.com/katemcgraw0/yes-chef'
@@ -157,12 +168,10 @@ export default function Projects () {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
         </main>
-     
       </div>
     </Layout>
   )

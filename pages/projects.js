@@ -167,7 +167,40 @@ export default function Projects () {
                       </Link>
                     </div>
                   </div>
-                </div>
+                  </div>
+                  <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full '>
+                  <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
+                    <div className='flex flex-col items-center flex-grow'>
+                      <img
+                        src='/trendee.png'
+                        alt='Your Image'
+                        className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
+                      />
+                      <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
+                        Trendee.ai Frontend
+                      </h2>
+                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
+                        Worked with Trendee.ai, a company that creates a curated feed of TikTok videos to help social media managers find content that is relevant to them quickly. I worked on the front end of the application, basing the design off of a Figma, and ensuring a comprehensive user interface. This was the first time that I worked on a project with very little creative control, trying to implement features exactly as shown on the Figma, and having no control of the Tech Stack. 
+                      </p>
+                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
+                        Technologies Used: Next.js, Typescript, Mantine
+                      </p>
+                    </div>
+                    <div className='flex justify-center mt-auto '>
+                      <Link
+                        legacyBehavior
+                        href='https://www.trendee.ai/'
+                        target='_blank'
+                        passHref
+                      >
+                        <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded text-center'>
+                         Check out the Company's Website Here
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  </div>
+                
               </div>
             </div>
           </div>

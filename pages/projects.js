@@ -180,7 +180,7 @@ export default function Projects () {
                         Trendee.ai Frontend
                       </h2>
                       <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
-                        Worked with Trendee.ai, a company that creates a curated feed of TikTok videos to help social media managers find content that is relevant to them quickly. I worked on the front end of the application, basing the design off of a Figma, and ensuring a comprehensive user interface. This was the first time that I worked on a project with very little creative control, trying to implement features exactly as shown on the Figma, and having no control of the Tech Stack. 
+                      Collaborated with Trendee.ai, a company specializing in curating personalized feeds of TikTok videos for efficient content discovery by social media managers. My role centered on refining the application's front-end, where I translated the design from Figma into a seamless and user-friendly interface. This project was a unique experience for me as I navigated working with limited creative autonomy, implementing features precisely as depicted in Figma, and adapting to a predefined Tech Stack over which I had no control.
                       </p>
                       <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
                         Technologies Used: Next.js, Typescript, Mantine

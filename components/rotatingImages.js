@@ -6,6 +6,7 @@ const images = [
   '/tht2.png',
   '/tht1.png',
   '/tht3.png',
+  './tht4.png',
 ];
 
 const RotatingImages = () => {

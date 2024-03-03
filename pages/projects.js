@@ -27,7 +27,7 @@ export default function Projects () {
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                         Zodiacify
                       </h2>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
                         A website I built that uses the Spotify API to access
                         users' data and uses the OpenAI API to predict their
                         zodiac sign based on this data. I also implemented
@@ -39,7 +39,7 @@ export default function Projects () {
                         in what I was working on and I got a lot of positive
                         feedback:)
                       </p>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust '>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
                         Technologies Used: React, Next.js, NextAuth.js,
                         TailwindCSS, OpenAI API, Spotify API, Vercel
                       </p>
@@ -75,7 +75,7 @@ export default function Projects () {
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                         Theta Tau Website
                       </h2>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
                         A website I helped build to showcase my professional
                         engineering fraternity. It serves to inform prospective
                         members of our fraternity's values and purpose. Members
@@ -90,9 +90,10 @@ export default function Projects () {
                         screen sizes, outdated information, and poor UI/UX
                         design. It also had no internal functionality, which has
                         made a huge difference in the administration of our
-                        fraternity.
+                        fraternity. This is definitely the project that I am
+                        most proud of.
                       </p>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust mb-2'>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
                         Technologies Used: Typescript, React, Next.js,
                         TailwindCSS, Netlify, Supabase
                       </p>
@@ -129,42 +130,37 @@ export default function Projects () {
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center flex-grow'>
                       <img
-                        src='/coming-soon.jpg'
+                        src='/Insta485.png'
                         alt='Your Image'
                         className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
                       />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
-                        Yes Chef
+                        Insta485
                       </h2>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
-                        A social media application that I am currently building
-                        for people to share what they have been cooking lately.
-                        With the rise of cooking instagrams, I am building this
-                        website to keep the cooking accounts off of instagram.
-                        Users will be able to create an account, login, add
-                        friends, and post meals they are cooking. In each post
-                        will be a picture (or pictures) of the meal as well as a
-                        section for the recipe and a section for an optional
-                        caption. There will be a feed of others' recent meals
-                        and opportunities to interact with these posts, as well
-                        as save these recipes to your upcoming meals. Stay tuned
-                        as I develop this concept!
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
+                        I created a full-stack mock instagram for my web dev
+                        class! On the front end, I used React to ensure seamless
+                        and responsive client-side interactions, and on the
+                        server side, I implemented custom REST API enpoints,
+                        which used Flask to access my SQLite database. SQLite
+                        allowed the application to have the ability to handle
+                        real-time user interactions, including account creation,
+                        post publication, commenting functionality, an infinite
+                        scroll feature. This was the first time that I manually
+                        implemented security measures such as password salting
+                        and hashing techniques to safeguard passwords stored
+                        within the SQLite database, as previously I had used
+                        Google OAuth or other secure login tools to avoid
+                        writing vulnerable code. I didn't put as much work into
+                        the front-end of this project, as I was more focused on
+                        learning new back-end technologies, but I am excited to
+                        use these new technologies in my projects moving
+                        fowards!
                       </p>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust '>
-                        Technologies Used: Next.js, Typescript, Supabase
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
+                        Technologies Used: JavaScript, React, Python, Flask,
+                        Jinja, SQLite, AWS
                       </p>
-                    </div>
-                    <div className='flex justify-center mt-auto '>
-                      <Link
-                        legacyBehavior
-                        href='https://github.com/katemcgraw0/yes-chef'
-                        target='_blank'
-                        passHref
-                      >
-                        <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded text-center'>
-                          Github Repo
-                        </a>
-                      </Link>
                     </div>
                   </div>
                 </div>
@@ -179,7 +175,7 @@ export default function Projects () {
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
                         Trendee.ai Frontend
                       </h2>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
                         Collaborated with Trendee.ai, a company specializing in
                         curating personalized feeds of TikTok videos for
                         efficient content discovery by social media managers. My
@@ -191,7 +187,7 @@ export default function Projects () {
                         depicted in Figma, and adapting to a predefined Tech
                         Stack over which I had no control.
                       </p>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
                         Technologies Used: Next.js, Typescript, Mantine
                       </p>
                     </div>
@@ -215,40 +211,42 @@ export default function Projects () {
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center flex-grow'>
                       <img
-                        src='/Insta485.png'
+                        src='/coming-soon.jpg'
                         alt='Your Image'
                         className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
                       />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
-                        Insta485
+                        Yes Chef
                       </h2>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust'>
-                        The project involved the development of a comprehensive
-                        social media web application (mock Instagram),
-                        leveraging a full-stack approach. I used React to ensure
-                        seamless and responsive client-side interactions,
-                        enabling dynamic user experiences. On the server side,
-                        Flask served as the REST API back-end, facilitating
-                        smooth communication between the client and the
-                        database. I implemented custom REST API enpoints, which
-                        used Flask to access my SQLite database. SQLite allowed
-                        the application with the ability to handle real-time
-                        user interactions, including account creation, post
-                        publication, commenting functionality, and an intuitive
-                        infinite scroll feature for enhanced user engagement.
-                        This was the first time that I manually implemented
-                        security measures such as password salting and hashing
-                        techniques to safeguard sensitive user credentials
-                        stored within the SQLite database, as previously I had
-                        used Google OAuth to avoid writing vulnerable code. I
-                        didn't put as much work into the front-end of this
-                        project, as I was more focused on learning new back-end
-                        technologies.
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
+                        A social media application that I am currently building
+                        for people to share what they have been cooking lately.
+                        With the rise of cooking instagrams, I am building this
+                        website to keep the cooking accounts off of instagram.
+                        Users will be able to create an account, login, add
+                        friends, and post meals they are cooking. In each post
+                        will be a picture (or pictures) of the meal as well as a
+                        section for the recipe and a section for an optional
+                        caption. There will be a feed of others' recent meals
+                        and opportunities to interact with these posts, as well
+                        as save these recipes to your upcoming meals. Stay tuned
+                        as I develop this concept!
                       </p>
-                      <p className='sm:text-2xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
-                        Technologies Used: JavaScript, React, Python, Flask,
-                        Jinja, SQLite, AWS
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left '>
+                        Technologies Used: Next.js, Typescript, Supabase
                       </p>
+                    </div>
+                    <div className='flex justify-center mt-auto '>
+                      <Link
+                        legacyBehavior
+                        href='https://github.com/katemcgraw0/yes-chef'
+                        target='_blank'
+                        passHref
+                      >
+                        <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded text-center'>
+                          Github Repo
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

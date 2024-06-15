@@ -125,6 +125,10 @@ export default function Projects () {
                   </div>
                 </div>
               </div>
+
+{/*First two projects ^*/}
+
+
               <div className='flex md:flex-row flex-col gap-8 justify-center'>
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full '>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
@@ -168,7 +172,7 @@ export default function Projects () {
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center flex-grow'>
                       <img
-                        src='/trendee.png'
+                        src='/trendee2.png'
                         alt='Your Image'
                         className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
                       />
@@ -206,7 +210,64 @@ export default function Projects () {
                   </div>
                 </div>
               </div>
-              
+{/*Second two boxes */}
+
+
+
+<div className='flex md:flex-row flex-col gap-8'>
+                <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
+                  <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
+                    <div className='flex flex-col items-center flex-grow'>
+                      <img
+                        src='/mapreduce.png'
+                        alt='Your Image'
+                        className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
+                      />
+                      <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
+                        MapReduce
+                      </h2>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
+                      I built a multi-worker and fault-tolerant MapReduce server in Python which can process user-submitted tasks. This project was a deep dive into distributed systems, aiming to implement a framework capable of executing MapReduce programs across a cluster of computers. Our framework comprised two main components: a Manager and multiple Workers. The Manager accepted user-submitted MapReduce jobs and distributed tasks among the Workers. Each Worker executed map and reduce tasks on the given data. The Manager ensured fault tolerance, task distribution, and system concurrency using OS-provided facilities such as threads and sockets for networking. One of the key challenges was ensuring efficient communication between the Manager and Workers while maintaining system robustness. We tackled this by implementing a reliable heartbeat mechanism to monitor Worker status and reassign tasks if any Worker failed. This experience not only strengthened my understanding of distributed systems but also enhanced my skills in Python programming, concurrency, and network communication.
+                      </p>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
+                        Technologies Used: Python, Sockets, Threads and Processes, AWS
+                      </p>
+                    </div>
+                    <div className='flex justify-center mt-auto '>
+                    </div>
+                  </div>
+                </div>
+                <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
+                  <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
+                    <div className='flex flex-col items-center'>
+                    <img
+                        src='/ask485.png'
+                        alt='Your Image'
+                        className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
+                      />
+                      <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
+                        ask485
+                      </h2>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
+                      For my web systems class, my team and I developed a scalable search engine akin to Google. This project involved several key learning goals, including information retrieval concepts like text analysis using tf-idf, link analysis with PageRank, and parallel data processing using MapReduce. We built a segmented inverted index of web pages using MapReduce programs. This involved parsing, cleaning text, and calculating tf-idf scores. Our index server used a REST API that returns search results in JSON format. It loads inverted index segments, PageRank data, and stopwords into memory. Each server instance handles different index segments. For the seach server, we created a user interface for querying the search engine. It aggregates results from multiple Index servers and displays the top 10 results. The UI includes a query input and a PageRank weight slider.
+
+
+                      </p>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
+                        Technologies Used: Python, Flask, SQLite, MapReduce
+                      </p>
+                      <div className='flex align-bottom'>
+                        <div className='flex justify-center mt-auto'>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
             </div>
           </div>
         </main>

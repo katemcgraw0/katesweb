@@ -12,9 +12,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 100, 100, 105;
+    --background-end-rgb: 150, 150, 150;
   }
 }
 
@@ -26,4 +26,89 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.animated-image {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.animated-image img {
+  display: block;
+  max-width: 100%;
+  border-radius: 1.5rem;
+}
+
+.animated-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  border: 4px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+  pointer-events: none; /* Prevent interaction issues */
+}
+
+.animated-image:hover::before {
+  border-color: #67a061; /* Green color for the border */
+  animation: draw-border 2s forwards;
+}
+
+
+
+@keyframes draw-border {
+  0% {
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  75% {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-width: 0 4px 4px 4px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-width: 4px;
+  }
+}
+.custom-cursor {
+  position: fixed; /* Fixed position to avoid scrolling issues */
+  width: 32px; /* Adjust size as needed */
+  height: 32px; /* Adjust size as needed */
+  background-image: url('/cursor.png'); /* Path to your cursor image */
+  background-size: cover; /* Ensure the image covers the div */
+  pointer-events: none; /* Prevent interaction with the cursor */
+  transform: translate(-50%, -50%); /* Center the cursor */
+  z-index: 9999; /* Ensure it is on top */
+}
+
+* {
+  cursor: none; /* Hide the default cursor */
+}
+.custom-typed .typed-cursor {
+  color: orange !important; /* Change this to your desired cursor color */
 }

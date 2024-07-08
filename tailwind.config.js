@@ -9,6 +9,9 @@ module.exports = {
     
 
     extend: {
+      width: {
+        '1/8': '12.5%', // Custom width for 1/8 of the container
+      },
       colors: {
         t1color1 :'#55a19e',
         t1color2 : '#bed9d8',

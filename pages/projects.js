@@ -83,7 +83,9 @@ export default function Projects () {
                         features such as viewing internal events, pledging
                         progress, and accessing resources. There is also a
                         feature to see what other brothers are taking the same
-                        classes as you. This was an extremely rewarding project
+                        classes as you. I got the opportunity to lead a team of developers
+                        in this project, and help them learn the basics of web dev. 
+                        This was an extremely rewarding project
                         as it was a simple way to give back to my fraternity.
                         Prior to the current website, the fraternity's website
                         had many issues including incompatibility with different

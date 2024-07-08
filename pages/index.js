@@ -9,7 +9,7 @@ const IconWithText = ({ src, alt, text }) => {
     <div
       className="icon-wrapper flex items-center"
       onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      //onMouseLeave={() => setIsHovered(false)}
     >
       <img src={src} alt={alt} className="icon rounded-full w-1/8" />
       {isHovered && (

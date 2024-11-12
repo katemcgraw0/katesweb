@@ -16,58 +16,45 @@ export default function Projects () {
             </div>
             <div className='flex flex-col gap-8 mt-5 mb-5'>
               <div className='flex md:flex-row flex-col gap-8'>
-                <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
+                
+         <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
-                    <div className='flex flex-col items-center flex-grow'>
+                    <div className='flex flex-col items-center'>
                       <img
-                        src='/Zodiacify.png'
-                        alt='Your Image'
+                        src='/pager.png'
+                        alt='Pager Image'
                         className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
                       />
                       <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
-                        Zodiacify
+                        Pager
                       </h2>
                       <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
-                        A website I built that uses the Spotify API to access
-                        users' data and uses the OpenAI API to predict their
-                        zodiac sign based on this data. I also implemented
-                        features to display users' favorite artists and to give
-                        them song and artist recommendations. This was my first
-                        personal project, and I learned a lot about web dev and
-                        options for choosing my tech stack. This project was
-                        really fun for me because it engaged a lot of my friends
-                        in what I was working on and I got a lot of positive
-                        feedback:)
+                        For my advanced operating systems class, I designed and
+                        implemented a memory manager, or "pager," to manage
+                        virtual memory for application processes. This pager
+                        handles critical functions such as memory allocation,
+                        process switching, and page fault handling by
+                        maintaining virtual memory backed by swap space or
+                        files. The system uses a single-level page table and
+                        simulates memory management hardware, enabling complex
+                        memory operations like copy-on-write and eviction with a
+                        second-chance FIFO algorithm. This project emphasized
+                        efficient resource use and robust fault handling, and I
+                        developed extensive test cases to verify the pager’s
+                        functionality and performance.
                       </p>
                       <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
-                        Technologies Used: React, Next.js, NextAuth.js,
-                        TailwindCSS, OpenAI API, Spotify API, Vercel
+                        Technologies Used: C++, Make, Bash/Shell Scripting, OS
                       </p>
-                    </div>
-                    <div className='flex justify-center mt-auto '>
-                      <Link
-                        legacyBehavior
-                        href='https://zodiacify.vercel.app/'
-                        target='_blank'
-                        passHref
-                      >
-                        <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded mr-2 text-center'>
-                          Click here to See!
-                        </a>
-                      </Link>
-                      <Link
-                        legacyBehavior
-                        href='https://github.com/katemcgraw0/Zodiacify'
-                        target='_blank'
-                        passHref
-                      >
-                        <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded text-center'>
-                          Github Repo
-                        </a>
-                      </Link>
+                      <div className='flex align-bottom'>
+                        <div className='flex justify-center mt-auto'></div>
+                      </div>
                     </div>
                   </div>
                 </div>
+
+
+
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center'>
@@ -83,17 +70,17 @@ export default function Projects () {
                         features such as viewing internal events, pledging
                         progress, and accessing resources. There is also a
                         feature to see what other brothers are taking the same
-                        classes as you. I got the opportunity to lead a team of developers
-                        in this project, and help them learn the basics of web dev. 
-                        This was an extremely rewarding project
-                        as it was a simple way to give back to my fraternity.
-                        Prior to the current website, the fraternity's website
-                        had many issues including incompatibility with different
-                        screen sizes, outdated information, and poor UI/UX
-                        design. It also had no internal functionality, which has
-                        made a huge difference in the administration of our
-                        fraternity. This is definitely the project that I am
-                        most proud of.
+                        classes as you. I got the opportunity to lead a team of
+                        developers in this project, and help them learn the
+                        basics of web dev. This was an extremely rewarding
+                        project as it was a simple way to give back to my
+                        fraternity. Prior to the current website, the
+                        fraternity's website had many issues including
+                        incompatibility with different screen sizes, outdated
+                        information, and poor UI/UX design. It also had no
+                        internal functionality, which has made a huge difference
+                        in the administration of our fraternity. This is
+                        definitely the project that I am most proud of.
                       </p>
                       <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
                         Technologies Used: Typescript, React, Next.js,
@@ -128,8 +115,7 @@ export default function Projects () {
                 </div>
               </div>
 
-{/*First two projects ^*/}
-
+              {/*First two projects ^*/}
 
               <div className='flex md:flex-row flex-col gap-8 justify-center'>
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full '>
@@ -212,11 +198,9 @@ export default function Projects () {
                   </div>
                 </div>
               </div>
-{/*Second two boxes */}
+              {/*Second two boxes */}
 
-
-
-<div className='flex md:flex-row flex-col gap-8'>
+              <div className='flex md:flex-row flex-col gap-8'>
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center flex-grow'>
@@ -229,20 +213,42 @@ export default function Projects () {
                         MapReduce
                       </h2>
                       <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
-                      I built a multi-worker and fault-tolerant MapReduce server in Python which can process user-submitted tasks. This project was a deep dive into distributed systems, aiming to implement a framework capable of executing MapReduce programs across a cluster of computers. Our framework comprised two main components: a Manager and multiple Workers. The Manager accepted user-submitted MapReduce jobs and distributed tasks among the Workers. Each Worker executed map and reduce tasks on the given data. The Manager ensured fault tolerance, task distribution, and system concurrency using OS-provided facilities such as threads and sockets for networking. One of the key challenges was ensuring efficient communication between the Manager and Workers while maintaining system robustness. We tackled this by implementing a reliable heartbeat mechanism, to monitor Worker status and reassign tasks if any Worker failed. To do this, we used UDP to send heartbeats and TCP for registration and ackowledgement communication. This experience not only strengthened my understanding of distributed systems but also enhanced my skills in Python programming, concurrency, and network communication.
+                        I built a multi-worker and fault-tolerant MapReduce
+                        server in Python which can process user-submitted tasks.
+                        This project was a deep dive into distributed systems,
+                        aiming to implement a framework capable of executing
+                        MapReduce programs across a cluster of computers. Our
+                        framework comprised two main components: a Manager and
+                        multiple Workers. The Manager accepted user-submitted
+                        MapReduce jobs and distributed tasks among the Workers.
+                        Each Worker executed map and reduce tasks on the given
+                        data. The Manager ensured fault tolerance, task
+                        distribution, and system concurrency using OS-provided
+                        facilities such as threads and sockets for networking.
+                        One of the key challenges was ensuring efficient
+                        communication between the Manager and Workers while
+                        maintaining system robustness. We tackled this by
+                        implementing a reliable heartbeat mechanism, to monitor
+                        Worker status and reassign tasks if any Worker failed.
+                        To do this, we used UDP to send heartbeats and TCP for
+                        registration and ackowledgement communication. This
+                        experience not only strengthened my understanding of
+                        distributed systems but also enhanced my skills in
+                        Python programming, concurrency, and network
+                        communication.
                       </p>
                       <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
-                        Technologies Used: Python, Sockets, Threads and Processes, AWS
+                        Technologies Used: Python, Sockets, Threads and
+                        Processes, AWS
                       </p>
                     </div>
-                    <div className='flex justify-center mt-auto '>
-                    </div>
+                    <div className='flex justify-center mt-auto '></div>
                   </div>
                 </div>
                 <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
                   <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
                     <div className='flex flex-col items-center'>
-                    <img
+                      <img
                         src='/ask485.png'
                         alt='Your Image'
                         className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
@@ -251,25 +257,89 @@ export default function Projects () {
                         ask485
                       </h2>
                       <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
-                      For my web systems class, my team and I developed a scalable search engine akin to Google. This project involved several key learning goals, including information retrieval concepts like text analysis using tf-idf, link analysis with PageRank, and parallel data processing using MapReduce. We built a segmented inverted index of web pages using MapReduce programs. This involved parsing, cleaning text, and calculating tf-idf scores. Our index server used a REST API that returns search results in JSON format. It loads inverted index segments, PageRank data, and stopwords into memory. Each server instance handles different index segments. For the seach server, we created a user interface for querying the search engine. It aggregates results from multiple Index servers and displays the top 10 results. The UI includes a query input and a PageRank weight slider.
-
-
+                        For my web systems class, my team and I developed a
+                        scalable search engine akin to Google. This project
+                        involved several key learning goals, including
+                        information retrieval concepts like text analysis using
+                        tf-idf, link analysis with PageRank, and parallel data
+                        processing using MapReduce. We built a segmented
+                        inverted index of web pages using MapReduce programs.
+                        This involved parsing, cleaning text, and calculating
+                        tf-idf scores. Our index server used a REST API that
+                        returns search results in JSON format. It loads inverted
+                        index segments, PageRank data, and stopwords into
+                        memory. Each server instance handles different index
+                        segments. For the seach server, we created a user
+                        interface for querying the search engine. It aggregates
+                        results from multiple Index servers and displays the top
+                        10 results. The UI includes a query input and a PageRank
+                        weight slider.
                       </p>
                       <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
                         Technologies Used: Python, Flask, SQLite, MapReduce
                       </p>
                       <div className='flex align-bottom'>
-                        <div className='flex justify-center mt-auto'>
-                        </div>
+                        <div className='flex justify-center mt-auto'></div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-
-
-
+              <div className='flex md:flex-row flex-col gap-8 justify-center'>
+              <div className='flex  flex-col justify-center max-w-2xl flex-grow md:w-1/2 w-full'>
+                  <div className='bg-green3 rounded-lg p-8 flex flex-grow flex-col border border-transparent hover:border-green5 transform transition-transform hover:scale-105'>
+                    <div className='flex flex-col items-center flex-grow'>
+                      <img
+                        src='/Zodiacify.png'
+                        alt='Your Image'
+                        className='lg:w-auto lg:h-72 rounded-md md:h-52 md:w-auto'
+                      />
+                      <h2 className='font-custom sm:text-4xl text-3xl font-bold mb-0 mt-0 p-4 text-white rounded-t-xl'>
+                        Zodiacify
+                      </h2>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust'>
+                        A website I built that uses the Spotify API to access
+                        users' data and uses the OpenAI API to predict their
+                        zodiac sign based on this data. I also implemented
+                        features to display users' favorite artists and to give
+                        them song and artist recommendations. This was my first
+                        personal project, and I learned a lot about web dev and
+                        options for choosing my tech stack. This project was
+                        really fun for me because it engaged a lot of my friends
+                        in what I was working on and I got a lot of positive
+                        feedback:)
+                      </p>
+                      <p className='sm:text-xl text-lg mt-4 text-white font-bodyCust text-left flex w-full text-left'>
+                        Technologies Used: React, Next.js, NextAuth.js,
+                        TailwindCSS, OpenAI API, Spotify API, Vercel
+                      </p>
+                    </div>
+                    <div className='flex justify-center mt-auto '>
+                      <Link
+                        legacyBehavior
+                        href='https://zodiacify.vercel.app/'
+                        target='_blank'
+                        passHref
+                      >
+                        <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded mr-2 text-center'>
+                          Click here to See!
+                        </a>
+                      </Link>
+                      <Link
+                        legacyBehavior
+                        href='https://github.com/katemcgraw0/Zodiacify'
+                        target='_blank'
+                        passHref
+                      >
+                        <a className='bg-green5 hover:bg-green4 sm:text-2xl text-lg text-white font-bold font-custom py-2 px-4 rounded text-center'>
+                          Github Repo
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </main>

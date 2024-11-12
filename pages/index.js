@@ -52,10 +52,10 @@ export default function Home() {
                     Hover on the icons below to learn more about me!
                   </p>
                   <div className="flex flex-col space-y-4 font-custom text-xl">
-                    <IconWithText src="/icons/coding-icon.png" alt="Coding Icon" text="//I am an aspiring Software Engineer, currently interning at Walmart Global Tech working with the Data Ventures team." />
+                    <IconWithText src="/icons/coding-icon.png" alt="Coding Icon" text="//I am an aspiring Software Engineer, previously interning at Walmart Global Tech working with the Data Ventures team." />
                     <IconWithText src="/icons/home-icon.png" alt="Home Icon" text="//I am from San Diego, CA-—born and raised." />
                     <IconWithText src="/icons/school-icon.png" alt="School Icon" text="//I am studying CS at UMich. Go Blue!!!!" />
-                    <IconWithText src="/icons/teaching-icon.png" alt="Teacher Icon" text="//I am a TA for a CS Theory class,  <a href='https://eecs376.org/' target='_blank' rel='noopener noreferrer className ='text-blue' '>EECS 376</a>, and I love sharing my passion for learning with others." />
+                    <IconWithText src="/icons/teaching-icon.png" alt="Teacher Icon" text="//I am a TA for a CS Theory class,  <a href='https://eecs376.org/' target='_blank' rel='noopener noreferrer className ='font-blue' '>EECS 376</a>, and I love sharing my passion for learning with others." />
                     <IconWithText src="/icons/hobbies-icon.png" alt="Hobbies Icon" text="//My hobbies include hiking, listening to a lot of music, and slacklining." />
                   </div>
                 </div>
